@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    id="cordova-plugin-force-speaker"
+    version="0.1.0">
+
+    <name>Force speaker output on iOS devices</name>
+    <description>Force speaker output on iOS devices</description>
+    <license>MIT</license>
+
+    <engines>
+        <engine name="cordova" version=">=6.0.0"/>
+    </engines>
+
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="Speaker">
+                <param name="ios-package" value="Speaker"/>
+                <param name="onload" value="true" />
+            </feature>
+        </config-file>
+        <header-file src="src/ios/Speaker.h"/>
+        <source-file src="src/ios/Speaker.m"/>
+    </platform>
+
+</plugin>

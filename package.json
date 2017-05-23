@@ -1,0 +1,22 @@
+{
+  "name": "cordova-plugin-force-speaker",
+  "version": "0.1.0",
+  "description": "Force speaker output on iOS devices",
+  "cordova": {
+    "id": "cordova-plugin-force-speaker",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saghul/cordova-plugin-audioroute.git"
+  },
+  "keywords": [
+    "cordova",
+    "cordova-ios",
+    "audio"
+  ],
+  "author": "Jose Lopez <jose.lopez@quobis.com>",
+  "license": "MIT"
+}
